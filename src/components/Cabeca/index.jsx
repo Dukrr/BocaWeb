@@ -12,10 +12,10 @@ export const Cabeca = ({pesquisa, buscaODA}) => {
                 <div className='botoe-menu'>
                 <ul>
                   <li>
-                      <a href="#" className="link-item">Inicio</a>
+                      <a href="#!" className="link-item">Inicio</a>
                   </li>
                   <li>
-                      <a href="http://www.bocaweb.com.br/contato" className="link-item">Suporte</a>
+                      <a href="https://www.bocaweb.com.br/contato" className="link-item">Suporte</a>
                   </li>
               </ul>
               </div>
@@ -29,7 +29,7 @@ export const Cabeca = ({pesquisa, buscaODA}) => {
                 onChange={buscaODA}
                 className="search-txt"
             />
-            <a href="#" className="search-button">
+            <a href="#!" className="search-button">
             <i className="fa fa-search"></i>
             </a>
             </div>
